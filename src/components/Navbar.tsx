@@ -1,6 +1,5 @@
 import { createSignal, type Component, createEffect, onCleanup } from "solid-js";
 
-// import { A } from "@solidjs/router";
 const Navbar: Component = () => {
     const [theme, setDarkTheme] = createSignal(getInitialTheme());
     const toggleTheme = () => {
@@ -41,7 +40,7 @@ const Navbar: Component = () => {
                                 <a href="/">Home</a>
                             </li>
                             <li>
-                                <a href="/about">about</a>
+                                <a href="/about">About</a>
                             </li>
                             <li>
                                 <a href="/portofolio">Portofolio</a>
@@ -59,7 +58,7 @@ const Navbar: Component = () => {
                             <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="/about">about</a>
+                            <a href="/about">About</a>
                         </li>
                         <li>
                             <a href="/portofolio">Portofolio</a>
